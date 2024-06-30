@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+    integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+    crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+  <div class="flex container">
+    <div class="jumbotron text-center"
+      style="background-image: url('C:\Users\yjagilanka\Downloads\NAINA-development\templates\musicmix.png');">
+      <h1>Wave Weave</h1>
+      <p>Data Collection tool for Wave Weave.Mention your Name at NAINA if you want to get it delivered for your
+        Telegram</p>
+      <p>If any issues contact Yash</p>
+    </div>
+    <form action="/audio_recv" method="POST" role="form" class="form-horizontal">
+      <div class="form-group row">
+        <label for="usernmae" class="col-sm-2 col-form-label">User Name</label>
+        <div class="col-sm-10 col-md-4">
+          <input type="text" class="form-control" id="username" name="username" placeholder="User Name">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="url" class="col-sm-2 col-form-label">URL</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="url" name="url" placeholder="URL">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="rename" class="col-sm-2 col-form-label">Rename Song</label>
+        <div class="col-sm-10 col-md-4">
+          <input type="text" class="form-control" id="rename" name="rename" placeholder="Title to Rename">
+        </div>
+      </div>
+      <div class="form-row form-group">
+        <div class="form-group col-md-4 m-3" style="margin-right: 15px;">
+          <label class="mr-sm-2 " for="language">Language</label>
+          <select id="language" name="language" class="form-control">
+            <option selected>Choose...</option>
+            <option value="Telugu">Telugu</option>
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Tamil">Tamil</option>
+            <option value="Malayalam">Malayalam</option>
+          </select>
+        </div>
+
+        <div class="form-group col-md-4 m-3" style="margin-right: 15px;">
+          <label for="genre">Genre</label>
+          <select id="genre" name="genre" class="form-control">
+            <option selected>Choose...</option>
+            <option value="Beats">Beats</option>
+            <option value="Melodies">Melodies</option>
+            <option value="Motivation">Motivation</option>
+            <option value="Party">Party</option>
+            <option value="Romantic">Romantic</option>
+            <option value="Romantic">Peace</option>
+            <option value="DjMix">DjMix</option>
+            <option value="Love_Push">Drive</option>
+            <option value="Love_Push">Old_Songs</option>
+            <option value="Love_Push">Item_Songs</option>
+          </select>
+        </div>
+        <div class="form-group col-md-4 m-3">
+          <label for="zoner">Zoner</label>
+          <select id="zoner" name="zoner" class="form-control">
+            <option selected>Choose...</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+      </div>
+  </div>
+  <input type="submit" class="center-block btn btn-default btn-lg btn-primary" value="Add/Download" />
+  </form>
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+/util/common/cuda/cuda-9.2/samples/0_Simple
+
+module load cuda
+
+nvcc -std=c++14 -O3 t1.cu -o t1
+
+7229654
+
+scancel --clusters faculty -p planex jobid
+
+squeue -M faculty -p planex -u yjagilan
+

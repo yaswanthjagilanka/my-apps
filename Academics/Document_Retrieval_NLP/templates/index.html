@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>
+        Document retrieval using NLP and Big Data
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Oswald"
+        }
+
+        body {
+            font-family: "Open Sans"
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="w3-content" style="max-width:1600px">
+
+            <!-- Header -->
+            <header class="w3-container w3-center w3-padding-48 w3-white">
+                <h1>Team name <span class="w3-tag">THE BULLS</span></h1>
+              <h3 class="w3-xlarge"><b>Data Intensive Computing</b></h3>
+              
+            </header>
+        </div>
+
+    </div>
+
+    <div class="w3-container w3-center w3-padding-48 w3-white">
+        <form action="{{ url_for('query_input') }}" method="post">
+        <label for="cars"><h2>Choose a category you would like to search about:</h2></label>
+        <br><br><br>
+        <select name="category" id="category" style="width: 352px;height: 42px;" class="w3-center">
+            <option value="CVIP">Computer Vision</option>
+            <option value="CS">Computer Science</option>
+            <option value="Control Systems">Control Systems</option>
+            <option value="ML">Machine Learning</option>
+        </select>
+        <button type="submit" style="height: 41px;width: 41px;"><i class="fa fa-search" ></i></button>
+    </form>
+    </div>
+</body>
+
+</html>

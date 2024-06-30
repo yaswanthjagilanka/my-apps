@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Exam Instructions</h2>
+<p>1.Do not resize(minimize) the browser during the test</p>
+<p>2.Never click the 'Back' button on the browser .This will take you out of the test and prevent the board from
+    tracking your selected answers.</p>
+<p>3.Avoid using scroll button on your mouse if present.</p>
+<p>4.Click the submit button to submit your answers.Do not press Enter on the keyboard to submit the exam </p>
+<p>5.Save your test using the "Save" button periodically during the exam</p>
+<p>This is some text in a paragraph.</p>
+
+<a href="{% url 'start_exam' %}">Start Exam</a>
+{% endblock %}
