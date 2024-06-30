@@ -1,0 +1,12 @@
+Flask==2.0.1
+numpy==1.21.5
+pandas==1.2.4
+Pillow==9.0.1
+plotly==5.4.0
+prophet==1.0.1
+python_dateutil==2.8.2
+scikit_learn==1.0.2
+yfinance==0.1.67
+gunicorn
+itsdangerous==2.0.1
+markupsafe==2.0.1

@@ -1,0 +1,15 @@
+# ABSTRACT
+
+Most heart cases need continuous monitoring of the heart condition. Apart from indicating the soundness of the heart, heart rate helps in assessing the cardiovascular system. Analysis of heart rate helps in diagnosis and detection of coronary diseases. The normal range of heart rate among adults is 60-100 beats per minute (bpm). If heart rate is higher than normal the condition is known as tachycardia, in the opposite case it is known as bradycardia.
+
+
+There are many devices available in the market to measure heart rate. The constructed device brings about some major changes compared to the available ones. Firstly, this is a cost effective option to measure heart rate. Secondly, the device provides an easy way to interface with personal computers and mobile phones. Thirdly, although there are a few analog devices to measure heart rate, the patient needs help from another person to do so. This device can be used without any need of assistance from others. Finally, the device is easy to use. The user only needs to place a fingertip on a sensor.
+
+
+The signal from the sensor is sent to raspberry pi which counts the heart rate and sends it to the display. Coding of raspberry pi is done using python language. Python is a widely used high-level, general-purpose, interpreted, dynamic programming language. Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than would be possible in languages such as C++ or java. Moreover python is the main programming language of raspberry pi.
+
+
+Along with the heartbeat sensor, a temperature sensor is also interfaced to display the surrounding temperature. The temperature sensor used is LM35, a precision integrated-circuit temperature sensor, whose output voltage is linearly proportional to the Celsius (Centigrade) temperature. The LM35 thus has an advantage over linear temperature sensors calibrated in ˚ Kelvin, as the user is not required to subtract a large constant voltage from its output to obtain convenient Centigrade scaling. The LM35 does not require any external calibration or trimming to provide typical accuracies of ±1⁄4˚C at room temperature and ±3⁄4˚ Cover a full −55 to +150˚C temperature range. This temperature sensor could be used in such a way that it measures the temperature of the patient.
+
+
+The display used is JHD162A which is a 16*2 8 bit backlit LCD display. The heart beat and temperature sensed by the sensors are displayed on this display through the python code run through raspberry pi. Thus the heartbeat of the patient could be continuously monitored and in case of any abnormality, a message or an alert is sent to a particular predefined person. In addition to this the data of the vitals could be stored in cloud or precisely in mail.

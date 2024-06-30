@@ -1,0 +1,32 @@
+[
+    {
+        "question" : "All keywords in Python are in _________",
+		"answers": {
+        "A" :		 "lower case",
+        "B" : 		 "UPPER CASE",
+        "C" : 		 "Capitalized",
+        "D" :		 "None of the mentioned"
+		},
+        "correct_answer" : "A"
+    },
+	{
+        "question" : "All keywords in Python are in _________",
+		"answers": {
+        "A" :		 "lower case",
+        "B" : 		 "UPPER CASE",
+        "C" : 		 "Capitalized",
+        "D" :		 "None of the mentioned"
+		},
+        "correct_answer" : "A"
+    },
+	{
+        "question" : "All keywords in Python are in _________",
+		"answers": {
+        "A" :		 "lower case",
+        "B" : 		 "UPPER CASE",
+        "C" : 		 "Capitalized",
+        "D" :		 "None of the mentioned"
+		},
+        "correct_answer" : "A"
+    }
+]
